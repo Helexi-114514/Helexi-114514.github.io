@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电脑君工具网</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", Consolas, monospace;
+}
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-image: radial-gradient(circle at 15% 10%, #162842 0%, transparent 40%),
+    radial-gradient(circle at 85% 90%, #1b2333 0%, transparent 40%);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title {
+    font-size: 38px;
+    background: linear-gradient(90deg, #4daaff, #6cf0ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.desc {
+    color: #8b949e;
+    font-size: 16px;
+}
+.section-title {
+    font-size: 22px;
+    margin: 40px 0 20px;
+    color: #58a6ff;
+    border-left: 4px solid #4daaff;
+    padding-left: 12px;
+}
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+.tool-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 14px;
+    padding: 24px;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.tool-card:hover {
+    border-color: #4daaff;
+    transform: translateY(-6px);
+    box-shadow: 0 10px 35px #00000045;
+}
+.tool-name {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #f0f6fc;
+}
+.tool-tip {
+    font-size: 14px;
+    color: #8b949e;
+    line-height: 1.6;
+}
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    color: #6e7681;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1 class="title">电脑君工具网</h1>
+        <p class="desc">空白模板 | 所有区块、工具名称、简介、跳转链接全部需手动修改源码</p>
+    </div>
+
+    <!-- 自定义区块1（区块标题自行修改） -->
+    <h2 class="section-title">自定义区块标题</h2>
+    <div class="tool-grid">
+        <!-- 空白工具卡片模板，全部空白，自行填充 -->
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+    </div>
+
+    <!-- 自定义区块2（区块标题自行修改） -->
+    <h2 class="section-title">自定义区块标题</h2>
+    <div class="tool-grid">
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+    </div>
+
+    <!-- 自定义区块3（区块标题自行修改） -->
+    <h2 class="section-title">自定义区块标题</h2>
+    <div class="tool-grid">
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+        <a class="tool-card" href="#" target="_blank">
+            <h3 class="tool-name">工具名称</h3>
+            <p class="tool-tip">工具介绍描述</p>
+        </a>
+    </div>
+
+    <div class="footer">
+        © 2026 电脑君Helexi-114514 | 空白模板，所有内容与链接需手动编辑HTML源码
+    </div>
+</div>
+</body>
+</html>
